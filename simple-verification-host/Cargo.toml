@@ -1,0 +1,9 @@
+[package]
+name = "simple-verification-host"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+risc0-zkvm = { workspace = true }
+borsh = { workspace = true }
+circuits-lib = { path = "../circuits-lib" }

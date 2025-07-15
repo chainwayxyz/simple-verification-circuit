@@ -1,0 +1,10 @@
+[package]
+name = "circuits-lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+borsh = { workspace = true }
+risc0-zkvm = { workspace = true }
+serde = { workspace = true }
+blake3 = { workspace = true }

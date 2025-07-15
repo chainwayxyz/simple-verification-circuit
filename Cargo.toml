@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+  "circuits-lib",
+  "simple-verification-host",
+]
+
+[workspace.dependencies]
+borsh = { version = "1.5.1" }
+risc0-zkvm = "2.1.0"
+serde = { version = "1.0", default-features = false, features = ["derive"] }
+blake3 = "1.6.1"

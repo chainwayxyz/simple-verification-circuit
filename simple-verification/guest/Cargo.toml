@@ -1,0 +1,15 @@
+[package]
+name = "simple-verification-guest"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+
+[dependencies]
+circuits-lib = { path = "../../circuits-lib" }
+
+[profile.release]
+debug = 0
+lto = true
+opt-level = 3
+codegen-units = 1
